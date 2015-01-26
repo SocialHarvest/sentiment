@@ -6,12 +6,12 @@ This package performs simple sentiment analysis using a Naive Bayes classifier. 
 relies upon the ```github.com/jbrukh/bayesian``` package and is more or less providing you with a specific implementation of that package.    
 Various freely available word lists and corpus data have been used to train the classifier, including:
 
-(http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)[An opinion lexicon by Minqing Hu and Bing Liu]    
-(http://neuro.imm.dtu.dk/wiki/AFINN)[AFINN: An affective lexicon by Finn Årup Nielsen]    
-(http://sentiwordnet.isti.cnr.it/)[A word list from SentiWordNet]    
-(http://sentistrength.wlv.ac.uk)[Russian training data from Eismont Polina, Efanova Iuliia, Konovalova Svetlana, Losev Viktor and Velichko Alena of Saint Petersburg State University of Aerospace Instrumentation, Department of Applied Linguistics originally for the SentiStrength project]    
-(http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22)[A sentiment data set based on Twitter from Ibrahim Naji]    
-(http://www.cs.cornell.edu/People/pabo/movie-review-data)[Movie reviews polarity (v2) by Pang/Lee ACL 2004]    
+[An opinion lexicon by Minqing Hu and Bing Liu](http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html)    
+[AFINN: An affective lexicon by Finn Årup Nielsen](http://neuro.imm.dtu.dk/wiki/AFINN)    
+[A word list from SentiWordNet](http://sentiwordnet.isti.cnr.it/)    
+[Russian training data from Eismont Polina, Efanova Iuliia, Konovalova Svetlana, Losev Viktor and Velichko Alena of Saint Petersburg State University of Aerospace Instrumentation, Department of Applied Linguistics originally for the SentiStrength project](http://sentistrength.wlv.ac.uk)    
+[A sentiment data set based on Twitter from Ibrahim Naji](http://thinknook.com/twitter-sentiment-analysis-training-corpus-dataset-2012-09-22)    
+[Movie reviews polarity (v2) by Pang/Lee ACL 2004](http://www.cs.cornell.edu/People/pabo/movie-review-data)    
 
 Training data from previous Social Harvest sentiment analysis (discussed here http://www.slideshare.net/shift8/mongodb-machine-learning) and custom word lists for emoticons have also been used to train this classifier. 
 
