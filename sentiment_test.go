@@ -43,8 +43,6 @@ func (s *SentimentSuite) SetUpSuite(c *C) {
 	s.testPhrases = append(s.testPhrases, map[string]interface{}{"phrase": "just ate a peanut that tasted like dish soap. that can't be a good thing.", "expected": -1})
 	s.testPhrases = append(s.testPhrases, map[string]interface{}{"phrase": "Just at work bored", "expected": -1})
 	s.testPhrases = append(s.testPhrases, map[string]interface{}{"phrase": "the weather outside is meh", "expected": -1})
-	s.testPhrases = append(s.testPhrases, map[string]interface{}{"phrase": "look at the weather outside", "expected": 0})
-
 }
 
 func (s *SentimentSuite) TestNewAnalyzer(c *C) {
