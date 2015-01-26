@@ -1,5 +1,7 @@
 # sentiment
 
+[![Build Status](https://drone.io/github.com/SocialHarvest/sentiment/status.png)](https://drone.io/github.com/SocialHarvest/sentiment/latest) [![Coverage Status](https://coveralls.io/repos/SocialHarvest/sentiment/badge.svg?branch=master)](https://coveralls.io/r/SocialHarvest/sentiment?branch=master)
+
 This package is part of Social Harvest, but has been made available as a stand alone package under a separate license. 
 
 This package performs simple sentiment analysis using a Naive Bayes classifier. Training data is held in memory so no database is required. It heavily 
