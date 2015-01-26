@@ -22,9 +22,8 @@ should work well for many cases without the need for additional training.
 
 ## Implementation Notes
 
-Keep in mind that this classifier is in memory and there has been a good deal of training, so the memory allocation is going to be considerable. Currently, it allocates 72MB of memory. 
-This will change if additional data is trained. Data gets loaded from a file on disk upon ```NewAnalyzer()``` being called. It is recommended to re-use this analyzer so that unecessary 
-amounts of memory are not allocated and application performance isn't hindered.
+Keep in mind that this classifier is in memory and there has been a good deal of training, so the memory allocation is going to be considerable. Data gets loaded from a file on disk 
+upon ```NewAnalyzer()``` being called. It is recommended to re-use this analyzer so that unecessary amounts of memory are not allocated and application performance isn't hindered.
 
 There is an up-front cost to initilize an analyzer (memory allocation). So it is best to setup an analyzer early on in your application. This way the delay is at startup rather 
 than at some random point in your application which could create delays elsewhere and impact other things.
