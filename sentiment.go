@@ -42,7 +42,7 @@ func (a *Analyzer) Classify(s string) int {
 	}
 	tokens := tokenize(s)
 
-	scores, likely, _ := a.classifier.LogScores(tokens)
+	_, likely, _ := a.classifier.LogScores(tokens)
 
 	sentiment := 0
 	// Positive, Negative, Neutral was the order in which classes were defined
